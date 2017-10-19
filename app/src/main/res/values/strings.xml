@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MuseumBooking</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="register">REGISTER</string>
+    <string name="reserve">RESERVE</string>
+    <string name="payment">PAYMENT</string>
+    <string name="send">SEND</string>
+    <string name="login_registertv_text">New User?Click here to register.</string>
+    <string name="ticket_reservation">Ticket Reservation</string>
+    <string name="info_details">Get Information Details</string>
+    <string name="add_payment">Add Payment</string>
+    <string name="reservation_details">Reservation Details</string>
+    <string name="view_payment">View Payment</string>
+    <string name="track_location">Track Location</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="view_profile">View Profile</string>
+    <string name="district">District: </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="scan_qr_code">Scan Qr Code</string>
+    <string name="track">Track</string>
+    <string name="call">Call</string>
+    <string name="view_route_map">View Route Map</string>
+
+    <string name="hint_enter_name">Enter name</string>
+    <string name="hint_enter_age">Enter age</string>
+    <string name="hint_enter_address">Enter address</string>
+    <string name="hint_enter_pincode">Enter pincode</string>
+    <string name="hint_enter_district">Enter district</string>
+    <string name="hint_enter_state">Enter state</string>
+    <string name="hint_enter_nationaity">Enter nationality</string>
+    <string name="hint_enter_phone">Enter phone</string>
+    <string name="hint_enter_email">Enter email</string>
+    <string name="hint_enter_username">Enter username</string>
+    <string name="hint_enter_password">Enter password</string>
+    <string name="hint_enter_item">Enter item</string>
+    <string name="hint_enter_feedabck">Enter feedback</string>
+    <string name="hint_enter_total_person">Enter total person</string>
+    <string name="hint_enter_date">Enter date</string>
+    <string name="hint_visit_date">Visit date</string>
+    <string name="hint_account_holder_name">Enter account holder name</string>
+    <string name="hint_bank_name">Enter bank name</string>
+    <string name="hint_account_no">Enter Account Number</string>
+
+</resources>

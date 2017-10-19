@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/museumTypeSpinner"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:overlapAnchor="false" />
+
+    <Spinner
+        android:id="@+id/museumNameSpinner"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:overlapAnchor="false" />
+    <EditText
+        android:id="@+id/dateOfReservation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edittext_height"
+        android:focusable="false"
+        android:hint="@string/hint_enter_date"
+        android:padding="5dp"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/totalPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_enter_total_person"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/reserveButton"
+        style="@style/Button.White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/reserve" />
+
+</LinearLayout>
